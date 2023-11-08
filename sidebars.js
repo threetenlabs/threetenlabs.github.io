@@ -38,7 +38,7 @@ module.exports = {
       type: 'category',
       label: 'Company',
       items: [
-        'company/index-develop',
+        'company/index-company',
         {
           type: 'category',
           label: 'Node.js',
@@ -153,17 +153,6 @@ module.exports = {
               label: '6 Course wrap-up',
               items: ['support/redis-at-scale/course-wrap-up/index-wrap-up'],
             },
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Orchestration',
-          items: [
-            'support/orchestration/index-orchestration',
-            'support/orchestration/docker/index-docker',
-            'support/orchestration/nodejs-nginx-redis/index-nodejs-nginx-redis',
-            'support/orchestration/kubernetes-gke/index-kubernetes-gke',
-            'support/orchestration/kubernetes-operator/index-kubernetes-operator',
           ],
         },
       ],
