@@ -81,10 +81,10 @@ function Hero() {
                 <div className="text">
                   <h3 className="title">Support</h3>
                   <p className="description">
-                    Insert,update and explore your database using RedisInsight
+                    Get help with our games and services.
                   </p>
                   <span className="more">
-                    Explore your data
+                    Contact Us
                     <SvgArrowRight color="#DC382C" />
                   </span>
                 </div>
