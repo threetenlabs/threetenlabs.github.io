@@ -12,7 +12,7 @@ module.exports = {
         'games/index-games',
         {
           type: 'category',
-          label: 'Spider Solitaire',
+          label: 'Y.A.S.S.',
           items: ['games/spider/index-spider'],
         },
         {
