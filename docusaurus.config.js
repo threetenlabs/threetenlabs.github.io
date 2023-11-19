@@ -117,14 +117,14 @@ module.exports = {
         // Useful if you want to support a single color mode
         disableSwitch: false,
       },
-      announcementBar: {
-        id: 'yass-release', // Any value that will identify this message.
-        content:
-          '<div class="announcement-bar"><a href="https://google.com" target="_blank" rel="noopener"><span>Announcing the first release of Spider Solitaire</span> <span style="margin-left:1rem">Learn more</span> <span style="margin-left:0.25rem">→</span></a></div>',
-        backgroundColor: 'rgb(210, 215, 254)', // Defaults to `#fff`.
-        textColor: 'rgb(22 31 49)', // Defaults to `#000`.
-        isCloseable: true, // Defaults to `true`.
-      },
+      // announcementBar: {
+      //   id: 'yass-release', // Any value that will identify this message.
+      //   content:
+      //     '<div class="announcement-bar"><a href="https://google.com" target="_blank" rel="noopener"><span>Announcing the first release of Spider Solitaire</span> <span style="margin-left:1rem">Learn more</span> <span style="margin-left:0.25rem">→</span></a></div>',
+      //   backgroundColor: 'rgb(210, 215, 254)', // Defaults to `#fff`.
+      //   textColor: 'rgb(22 31 49)', // Defaults to `#000`.
+      //   isCloseable: true, // Defaults to `true`.
+      // },
     }),
   presets: [
     [
