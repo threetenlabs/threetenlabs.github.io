@@ -9,7 +9,6 @@ import SvgGameBg from '@site/src/svg/CreateBg';
 import SvgCompany from '@site/src/svg/Company';
 import SvgCompanyBg from '@site/src/svg/DevelopBg';
 import SvgExplore from '@site/src/svg/Explore';
-import SvgOperate from '@site/src/svg/Operate';
 import SvgExploreBg from '@site/src/svg/ExploreBg';
 import SvgArrowRight from '@site/src/svg/ArrowRight';
 

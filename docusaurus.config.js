@@ -36,7 +36,6 @@ module.exports = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: '/img/redis-hero-image.jpg',
       // ...
       // googleTagManager: {
       //   trackingID: 'GTM-W8Z6BLQ',
@@ -119,7 +118,7 @@ module.exports = {
         disableSwitch: false,
       },
       announcementBar: {
-        id: 'redis-7-2-release', // Any value that will identify this message.
+        id: 'yass-release', // Any value that will identify this message.
         content:
           '<div class="announcement-bar"><a href="https://google.com" target="_blank" rel="noopener"><span>Announcing the first release of Spider Solitaire</span> <span style="margin-left:1rem">Learn more</span> <span style="margin-left:0.25rem">→</span></a></div>',
         backgroundColor: 'rgb(210, 215, 254)', // Defaults to `#fff`.
