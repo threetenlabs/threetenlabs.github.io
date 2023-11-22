@@ -13,7 +13,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Y.A.S.S.',
-          items: ['games/spider/index-spider'],
+          items: ['games/yass/index-yass'],
         },
         {
           type: 'category',
