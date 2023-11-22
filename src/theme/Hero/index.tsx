@@ -19,23 +19,22 @@ function Hero() {
         <div className="row">
           <div className="col col--12">
             <div className="row">
-              <div className="col col--8">
-                <h1 className="hero-title">
-                  The Home of
-                  <br /> ThreeTen Labs
-                </h1>
+              <div className="col col--7">
+                <h1 className="hero-title">ThreeTen Labs</h1>
 
                 <h2 className="hero-subtitle">
                   <Typed
-                    strings={[
-                      '>_ Mobile games simple, and might be a bit of fun',
-                    ]}
+                    strings={['>_ Life is Better With Playmates']}
                     typeSpeed={75}
                   />
                 </h2>
               </div>
-              <div className="col col--4">
-                <SvgHero color="#FFFFFF" className="illustration" />
+              <div className="col col--5">
+                <SvgHero
+                  width="300px"
+                  color="#FFFFFF"
+                  className="illustration"
+                />
               </div>
             </div>
             <div className="boxes">
@@ -68,7 +67,7 @@ function Hero() {
                     Take a look <SvgArrowRight color="#DC382C" />
                   </span>
                 </div>
-                <a href={useBaseUrl('/develop/')} className="link">
+                <a href={useBaseUrl('/company/')} className="link">
                   Read More
                 </a>
               </div>
@@ -88,27 +87,10 @@ function Hero() {
                     <SvgArrowRight color="#DC382C" />
                   </span>
                 </div>
-                <a href={useBaseUrl('/explore/')} className="link">
+                <a href={useBaseUrl('/support/')} className="link">
                   Read More
                 </a>
               </div>
-
-              {/* <div className="box box-operate">
-                <SvgExploreBg color="#FFFFFF" className="bg" />
-                <span className="icon">
-                  <SvgOperate />
-                </span>
-                <div className="text">
-                  <h3 className="title">Operate</h3>
-                  <p className="description">
-                    Provision Redis and accelerate app deployment using DevOps
-                  </p>
-                  <span className="more">
-                    Operate your database
-                    <SvgArrowRight color="#DC382C" />
-                  </span>
-                </div>
-              </div> */}
             </div>
           </div>
         </div>

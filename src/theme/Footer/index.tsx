@@ -54,7 +54,7 @@ interface FooterLogoProps {
 }
 
 const FooterLogo = ({ url, alt }: FooterLogoProps) => (
-  <img loading="lazy" className="footer__logo" alt={alt} src={url} />
+  <img loading="lazy" className="footer__logo--center" alt={alt} src={url} />
 );
 
 function Footer() {
@@ -65,7 +65,6 @@ function Footer() {
     logo = { src: undefined, alt: '' },
   } = footer ?? {};
   const logoUrl = useBaseUrl(logo.src);
-
   if (!footer) {
     return null;
   }
@@ -77,25 +76,21 @@ function Footer() {
       })}>
       <div className="container">
         <div className="row">
-          <div className="col col--3">
-            {logo && logo.src && (
-              <div className="footer__logo-ctr">
+          <div className="col col--6">
+            <div className="footer__logo-ctr">
+              <div className="text--center">
                 <span className="footer__logo-tagline">Made with ❤️ by</span>
                 {logo.href ? (
-                  <a
-                    href={logo.href}
-                    target="_blank"
-                    rel="noopener"
-                    className={styles.footerLogoLink}>
+                  <a href="/" className={styles.footerLogoLink}>
                     <FooterLogo alt={logo.alt ?? ''} url={logoUrl} />
                   </a>
                 ) : (
                   <FooterLogo alt={logo.alt ?? ''} url={logoUrl} />
                 )}
               </div>
-            )}
+            </div>
           </div>
-          <div className="col col--9">
+          <div className="col col--6">
             {links && links.length > 0 && (
               <div className="row footer__links">
                 {links.map(

@@ -53,33 +53,29 @@ module.exports = {
           'typescript',
         ],
       },
-
+      image: 'img/logo.png',
       navbar: {
         style: 'dark',
         title: null,
         logo: {
           alt: 'ThreeTen Labs logo',
-          src: 'img/logo-1.png',
+          src: 'img/logo.png',
         },
         hideOnScroll: true,
         items: [
-          {
-            type: 'search',
-            position: 'right',
-          },
-          {
-            to: '/games/',
-            activeBasePath: 'docs',
-            label: 'Games',
-            position: 'right',
-          },
+          // {
+          //   to: '/games/',
+          //   activeBasePath: 'docs',
+          //   label: 'Games',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
         style: 'dark',
         logo: {
           alt: 'ThreeTen Labs logo',
-          src: 'img/logo-1.png',
+          src: 'img/logo.png',
           href: 'https://threetenlabs.com/',
         },
         links: [
@@ -110,7 +106,7 @@ module.exports = {
             ],
           },
         ],
-        copyright: `Copyright: © ${new Date().getFullYear()} ThreeTen Labs. All rights reserved. ThreeTen Labs and the cube logo are registered trademarks of ThreeTen Labs LLC`,
+        copyright: `Copyright: © ${new Date().getFullYear()} ThreeTen Labs. All rights reserved.`,
       },
       colorMode: {
         // Hides the switch in the navbar
