@@ -33,95 +33,93 @@ module.exports = {
       },
     },
   },
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // ...
-      // googleTagManager: {
-      //   trackingID: 'GTM-W8Z6BLQ',
-      // },
-      prism: {
-        additionalLanguages: [
-          'csharp',
-          'php',
-          'ruby',
-          'java',
-          'rust',
-          'elixir',
-          'groovy',
-          'sql',
-          'typescript',
-        ],
+  themeConfig: {
+    // ...
+    // googleTagManager: {
+    //   trackingID: 'GTM-W8Z6BLQ',
+    // },
+    prism: {
+      additionalLanguages: [
+        'csharp',
+        'php',
+        'ruby',
+        'java',
+        'rust',
+        'elixir',
+        'groovy',
+        'sql',
+        'typescript',
+      ],
+    },
+    image: 'img/logo.png',
+    navbar: {
+      style: 'dark',
+      title: null,
+      logo: {
+        alt: 'ThreeTen Labs logo',
+        src: 'img/logo.png',
       },
-      image: 'img/logo.png',
-      navbar: {
-        style: 'dark',
-        title: null,
-        logo: {
-          alt: 'ThreeTen Labs logo',
-          src: 'img/logo.png',
+      hideOnScroll: true,
+      items: [
+        // {
+        //   to: '/games/',
+        //   activeBasePath: 'docs',
+        //   label: 'Games',
+        //   position: 'right',
+        // },
+      ],
+    },
+    footer: {
+      style: 'dark',
+      logo: {
+        alt: 'ThreeTen Labs logo',
+        src: 'img/logo.png',
+        href: 'https://threetenlabs.com/',
+      },
+      links: [
+        {
+          title: 'Get Started',
+          items: [
+            {
+              label: 'Games',
+              to: '/games/',
+            },
+            {
+              label: 'Company',
+              to: '/company/',
+            },
+          ],
         },
-        hideOnScroll: true,
-        items: [
-          // {
-          //   to: '/games/',
-          //   activeBasePath: 'docs',
-          //   label: 'Games',
-          //   position: 'right',
-          // },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        logo: {
-          alt: 'ThreeTen Labs logo',
-          src: 'img/logo.png',
-          href: 'https://threetenlabs.com/',
+        {
+          title: 'Mobile Applications',
+          items: [
+            {
+              label: 'Google Play Store',
+              href: 'https://play.google.com/store/games?hl=en_US&gl=US',
+            },
+            {
+              label: 'Apple Store',
+              href: 'https://www.google.com/aclk?sa=l&ai=DChcSEwjti6-lsLCCAxVTREcBHePWD5UYABABGgJxdQ&ase=2&gclid=Cj0KCQiAuqKqBhDxARIsAFZELmIsqZLsX5VUBTnZyroBKqNkekxkFjml_1kkrf095qdhZ3VJh2ZM1I8aAhz7EALw_wcB&sig=AOD64_0a_wlOYm72NTLP9hTCfjLUMjQXWQ&q&nis=4&adurl&ved=2ahUKEwjynKWlsLCCAxVSkIkEHZRICMsQ0Qx6BAgGEAE',
+            },
+          ],
         },
-        links: [
-          {
-            title: 'Get Started',
-            items: [
-              {
-                label: 'Games',
-                to: '/games/',
-              },
-              {
-                label: 'Company',
-                to: '/company/',
-              },
-            ],
-          },
-          {
-            title: 'Mobile Applications',
-            items: [
-              {
-                label: 'Google Play Store',
-                href: 'https://play.google.com/store/games?hl=en_US&gl=US',
-              },
-              {
-                label: 'Apple Store',
-                href: 'https://www.google.com/aclk?sa=l&ai=DChcSEwjti6-lsLCCAxVTREcBHePWD5UYABABGgJxdQ&ase=2&gclid=Cj0KCQiAuqKqBhDxARIsAFZELmIsqZLsX5VUBTnZyroBKqNkekxkFjml_1kkrf095qdhZ3VJh2ZM1I8aAhz7EALw_wcB&sig=AOD64_0a_wlOYm72NTLP9hTCfjLUMjQXWQ&q&nis=4&adurl&ved=2ahUKEwjynKWlsLCCAxVSkIkEHZRICMsQ0Qx6BAgGEAE',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright: © ${new Date().getFullYear()} ThreeTen Labs. All rights reserved.`,
-      },
-      colorMode: {
-        // Hides the switch in the navbar
-        // Useful if you want to support a single color mode
-        disableSwitch: false,
-      },
-      // announcementBar: {
-      //   id: 'yass-release', // Any value that will identify this message.
-      //   content:
-      //     '<div class="announcement-bar"><a href="https://google.com" target="_blank" rel="noopener"><span>Announcing the first release of Spider Solitaire</span> <span style="margin-left:1rem">Learn more</span> <span style="margin-left:0.25rem">→</span></a></div>',
-      //   backgroundColor: 'rgb(210, 215, 254)', // Defaults to `#fff`.
-      //   textColor: 'rgb(22 31 49)', // Defaults to `#000`.
-      //   isCloseable: true, // Defaults to `true`.
-      // },
-    }),
+      ],
+      copyright: `Copyright: © ${new Date().getFullYear()} ThreeTen Labs. All rights reserved.`,
+    },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
+    // announcementBar: {
+    //   id: 'yass-release', // Any value that will identify this message.
+    //   content:
+    //     '<div class="announcement-bar"><a href="https://google.com" target="_blank" rel="noopener"><span>Announcing the first release of Spider Solitaire</span> <span style="margin-left:1rem">Learn more</span> <span style="margin-left:0.25rem">→</span></a></div>',
+    //   backgroundColor: 'rgb(210, 215, 254)', // Defaults to `#fff`.
+    //   textColor: 'rgb(22 31 49)', // Defaults to `#000`.
+    //   isCloseable: true, // Defaults to `true`.
+    // },
+  },
   presets: [
     [
       'classic',
@@ -165,8 +163,5 @@ module.exports = {
       },
     ],
   ],
-  plugins: [
-    'docusaurus-plugin-sass',
-    // path.resolve(__dirname, 'plugins', 'gtm'),
-  ],
+  plugins: ['docusaurus-plugin-sass'],
 };
