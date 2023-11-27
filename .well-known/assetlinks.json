@@ -7,7 +7,8 @@
       "namespace": "android_app",
       "package_name": "com.threetenlabs.spidersolitaire",
       "sha256_cert_fingerprints": [
-        "41:79:76:92:8C:39:EC:5C:AB:8A:4F:29:84:19:A0:2B:33:C2:8E:56:DD:7E:14:01:75:81:CB:4F:EE:50:1C:1B"
+        "41:79:76:92:8C:39:EC:5C:AB:8A:4F:29:84:19:A0:2B:33:C2:8E:56:DD:7E:14:01:75:81:CB:4F:EE:50:1C:1B",
+        "B8:20:82:0D:29:A0:1F:14:50:85:05:18:E0:C2:CF:43:49:B3:89:C4:41:4B:35:D2:F5:E8:82:96:37:45:2F:11"
       ]
     }
   }
