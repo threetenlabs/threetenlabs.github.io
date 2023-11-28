@@ -1,6 +1,6 @@
 ---
 id: solitaire-share
-title: Download Y.A.S.S
+title: ''
 sidebar_label: Download
 slug: /game/solitaire/share
 ---
@@ -10,18 +10,28 @@ import ButtonsContainer from '@theme/ButtonsContainer';
 import AppStoreButon from '@theme/AppStoreButton';
 
     <div className="row">
-        <ButtonsContainer>
-            <GooglePlayButton
-                url={"https://play.google.com/store/apps/details?id=host"}
-                theme={"light"}
-                className={"custom-style"}
-            />
+        <div className="col col--12--center">
+            <img src="/img/yass-text.png" alt="Y.A.S.S. Solitaire" />
+        </div>
+    </div>
 
-            <AppStoreButon
-                url={"https://apps.apple.com/us/app/y-a-s-s/id6472488148"}
-                theme={"light"}
-                className={"custom-style"}
-            />
-        </ButtonsContainer>
+    <div className="row">
+        <div className="col col--12--center">
+            <ButtonsContainer>
+                <GooglePlayButton
+                    url={"https://play.google.com/store/apps/details?id=host"}
+                    theme={"light"}
+                    height={"60px"}
+                    className={"custom-style"}
+                />
 
+                <AppStoreButon
+                    url={"https://apps.apple.com/us/app/y-a-s-s/id6472488148"}
+                    theme={"light"}
+                    height={"60px"}
+                    className={"custom-style"}
+                />
+            </ButtonsContainer>
+
+        </div>
     </div>

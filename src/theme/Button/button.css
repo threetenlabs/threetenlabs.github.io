@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 :root {
   --primary-color: #202020;
@@ -24,12 +24,12 @@
 .button-text-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  font-family: "Outfit", sans-serif;
+  align-items: center;
+  font-family: 'Outfit', sans-serif;
 }
 
 .button-store-name {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 

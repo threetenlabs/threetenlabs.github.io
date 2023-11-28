@@ -33,11 +33,14 @@ module.exports = {
       },
     },
   },
+  scripts: [
+    {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6567607821330847',
+      crossorigin: 'anonymous',
+      async: true,
+    },
+  ],
   themeConfig: {
-    // ...
-    // googleTagManager: {
-    //   trackingID: 'GTM-W8Z6BLQ',
-    // },
     prism: {
       additionalLanguages: [
         'csharp',
@@ -163,5 +166,20 @@ module.exports = {
       },
     ],
   ],
-  plugins: ['docusaurus-plugin-sass'],
+  plugins: [
+    'docusaurus-plugin-sass',
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-Q08PQJS61B',
+        anonymizeIP: true,
+      },
+    ],
+    [
+      '@docusaurus/plugin-google-tag-manager',
+      {
+        containerId: 'GTM-N6GM8HL7',
+      },
+    ],
+  ],
 };
