@@ -5,6 +5,7 @@ module.exports = {
   tagline: 'Mobile Games Simple, and Maybe a Little Fun',
   url: 'https://threetenlabs.com',
   baseUrl: '/',
+  staticDirectories: ['public', 'static'],
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

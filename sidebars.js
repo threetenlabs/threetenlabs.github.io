@@ -13,7 +13,14 @@ module.exports = {
         {
           type: 'category',
           label: 'Y.A.S.S.',
-          items: ['games/yass/index-yass'],
+          items: [
+            'games/yass/index-yass',
+            'games/yass/cards',
+            'games/yass/layout',
+            'games/yass/play',
+            'games/yass/score',
+            'games/yass/faq',
+          ],
         },
         {
           type: 'category',

@@ -1,0 +1,58 @@
+---
+id: score
+title: Scoring
+sidebar_label: Scoring
+slug: /games/yass/score
+---
+
+### Basic Scoring:
+
+1. **Card Placement:**
+
+   - For each card placed in a foundation pile: +10 points.
+   - For each card placed in a tableau pile: +1 point.
+   - For each hint used: -2 points.
+
+2. **Suit Multiplier:**
+
+   - One Suit: x1 multiplier
+   - Two Suit: x2 multiplier
+   - Four Suit: x4 multiplier
+
+3. **Completing a Suit:**
+   - One Suit: +100 points
+   - Two Suit: +200 points
+   - Four Suit: +400 points
+
+### Time Bonuses:
+
+1. **Time Remaining:**
+
+   - Calculate the time remaining after completing the game.
+   - Bonus points awarded based on time remaining.
+
+   Example Bonus Points:
+
+   - 0-5 minutes: +500 points
+   - 5-10 minutes: +400 points
+   - 10-15 minutes: +300 points
+   - 15-20 minutes: +200 points
+   - 20+ minutes: +100 points
+
+### Hint Penalties:
+
+If hints are used during the game, apply a penalty to the final score. Each hint could subtract a certain number of points (e.g., -50 points per hint).
+
+### Total Score Calculation:
+
+`Total Score` = Card Placement Score + Completing a Suit Score + Time Bonus - Hint Penalties
+
+### Variations:
+
+**Without Hints:**
+
+- Only the basic scoring and time bonuses apply.
+
+**With Hints:**
+
+- Introduce the hint penalty system as described above.
