@@ -95,8 +95,9 @@ module.exports = {
           ],
         },
         {
-          title: 'Mobile Applications',
+          title: 'On the Web',
           items: [
+            {label: 'Twitter', href: 'https://twitter.com/threetenlabs'},
             {
               label: 'Google Play Store',
               href: 'https://play.google.com/store/games?hl=en_US&gl=US',
