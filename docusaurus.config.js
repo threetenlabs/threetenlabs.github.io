@@ -97,10 +97,10 @@ module.exports = {
         {
           title: 'On the Web',
           items: [
-            {label: 'Twitter', href: 'https://twitter.com/threetenlabs'},
+            { label: 'Twitter', href: 'https://twitter.com/threetenlabs' },
             {
               label: 'Google Play Store',
-              href: 'https://play.google.com/store/games?hl=en_US&gl=US',
+              href: 'https://play.google.com/store/apps/developer?id=ThreeTen+Labs',
             },
             {
               label: 'Apple Store',
@@ -116,14 +116,14 @@ module.exports = {
       disableSwitch: false,
       respectPrefersColorScheme: false,
     },
-    // announcementBar: {
-    //   id: 'yass-release', // Any value that will identify this message.
-    //   content:
-    //     '<div class="announcement-bar"><a href="https://google.com" target="_blank" rel="noopener"><span>Announcing the first release of Spider Solitaire</span> <span style="margin-left:1rem">Learn more</span> <span style="margin-left:0.25rem">→</span></a></div>',
-    //   backgroundColor: 'rgb(210, 215, 254)', // Defaults to `#fff`.
-    //   textColor: 'rgb(22 31 49)', // Defaults to `#000`.
-    //   isCloseable: true, // Defaults to `true`.
-    // },
+    announcementBar: {
+      id: 'yass-release', // Any value that will identify this message.
+      content:
+        '<div class="announcement-bar"><a href="/game/solitaire/share"><span>Announcing the first release of Y.A.S.S.</span> <span style="margin-left:1rem">Learn more</span> <span style="margin-left:0.25rem">→</span></a></div>',
+      backgroundColor: '#40b7d3', // Defaults to `#fff`.
+      textColor: 'rgb(22 31 49)', // Defaults to `#000`.
+      isCloseable: true, // Defaults to `true`.
+    },
   },
   presets: [
     [
