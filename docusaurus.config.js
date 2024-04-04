@@ -119,7 +119,7 @@ module.exports = {
     announcementBar: {
       id: 'yass-release', // Any value that will identify this message.
       content:
-        '<div class="announcement-bar"><a href="/game/solitaire/share"><span>Announcing the first release of Y.A.S.S.</span> <span style="margin-left:1rem">Learn more</span> <span style="margin-left:0.25rem">→</span></a></div>',
+        '<div class="announcement-bar"><a href="/game/solitaire/share"><span>Announcing the updated release of Y.A.S.S.</span> <span style="margin-left:1rem">Learn more</span> <span style="margin-left:0.25rem">→</span></a></div>',
       backgroundColor: '#40b7d3', // Defaults to `#fff`.
       textColor: 'rgb(22 31 49)', // Defaults to `#000`.
       isCloseable: true, // Defaults to `true`.
