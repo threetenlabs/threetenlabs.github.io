@@ -1,4 +1,11 @@
 
 # ThreeTen Labs Website
 
-force build
+### To Run
+```
+npm install
+```
+
+```
+npm run start
+```
