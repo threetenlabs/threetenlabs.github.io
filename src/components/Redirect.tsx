@@ -31,7 +31,7 @@ const Redirect: React.FC = () => {
   }, []);
 
   return (
-    <div style={{display: display, flexDirection: 'column', alignItems: 'center', gap: '20px'}}>
+    <div style={{display: display, flexDirection: 'column', alignItems: 'center', gap: '20px', maxWidth: '90%', margin: '0 auto', padding: '20px'}}>
       <div className="row">
         <div className="col col--12--center yassIcon">
           <img src="/img/yass/playstore.png" alt="Y.A.S.S. Solitaire" />
