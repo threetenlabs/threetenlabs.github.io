@@ -5,7 +5,6 @@ import AppStoreButton from '@theme/AppStoreButton';
 
 const Redirect: React.FC = () => {
   const [display, setDisplay] = useState('none');
-  const [userAgent, setUserAgent] = useState('');
   const location = useLocation();
   const params = new URLSearchParams(location.search);
   const promoter = params.get('x') || 'threetenlabs';
@@ -16,7 +15,6 @@ const Redirect: React.FC = () => {
 
   useEffect(() => {
     var ua = navigator.userAgent.toLowerCase();
-    setUserAgent(ua);
     var isAndroid = ua.indexOf("android") > -1;
     var isiOS = /iPad|iPhone|iPod/.test(ua);
 
@@ -32,7 +30,6 @@ const Redirect: React.FC = () => {
   return (
     <div style={{display: display, flexDirection: 'column', alignItems: 'center', gap: '20px'}}>
       <div className="row">
-      <p>User Agent: {userAgent}</p>
         <div className="col col--12--center yassIcon">
           <img src="/img/yass/playstore.png" alt="Y.A.S.S. Solitaire" />
         </div>
