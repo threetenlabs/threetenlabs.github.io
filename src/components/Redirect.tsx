@@ -22,9 +22,9 @@ const Redirect: React.FC = () => {
     var isiOS = /iPad|iPhone|iPod/.test(ua);
 
     if (isiOS) {
-      history.push(iOSUrl);
+        setTimeout(function(){window.location.replace(iOSUrl);},250);     
     } else if (isAndroid) {
-      history.push(androidUrl);
+        setTimeout(function(){window.location.replace(androidUrl);},250);     
     } else {
       setDisplay('flex');
     }
@@ -53,6 +53,23 @@ const Redirect: React.FC = () => {
             height={60}
             className={"custom-style"}
           />
+        </div>
+        <div className="row">
+            <p>
+                "In a world brimming with Spider Solitaire games, we thought, "Why not add one more?" Introducing "Y.A.S.S - Yet Another Spider Solitaire," the game that dares to tread where many have tread before, but with a few delightful twists!
+                <br/><br/>
+                Why Y.A.S.S?
+                <br/><br/>
+                Sure, you've probably played Spider Solitaire more times than you've hit the snooze button, but Y.A.S.S brings a fresh charm to this age-old classic. Here's why our game stands out in the deck:
+                <br/><br/>
+                Choose Your Challenge: Whether you're a one-suit wonder or a four-suit fiend, we've got you covered. With 1, 2, and 4 suit difficulty levels, Y.A.S.S caters to the cautious beginner and the daring expert alike.
+                <br/><br/>
+                Unlimited Hints & Undos: Because everyone deserves a second chance...or third...or maybe a fourth. Made a wrong move? Our unlimited undos are like your favorite comfort blanket - always there when you need them.
+                <br/><br/>
+                Deal Sharing: Think you've nailed a tough deal? Challenge friends to beat your score with the same cards. It's like sending a postcard, but with more bragging rights.
+                <br/><br/>
+                Climb the Leaderboards: Showcase your solitaire prowess and rise up the ranks. Remember, it's not just about playing; it's about playing to become a legend."
+            </p>
         </div>
       </div>
     </div>    
