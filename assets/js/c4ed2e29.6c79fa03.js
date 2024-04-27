@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthreeten_labs_site=self.webpackChunkthreeten_labs_site||[]).push([[443],{7049:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/getx","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

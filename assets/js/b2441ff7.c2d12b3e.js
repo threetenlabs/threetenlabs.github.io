@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthreeten_labs_site=self.webpackChunkthreeten_labs_site||[]).push([[8587],{8228:e=>{e.exports=JSON.parse('{"label":"Y.A.S.S","permalink":"/blog/tags/y-a-s-s","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

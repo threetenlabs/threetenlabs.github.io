@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthreeten_labs_site=self.webpackChunkthreeten_labs_site||[]).push([[4958],{7459:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/y-a-s-s","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

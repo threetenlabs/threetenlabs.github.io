@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthreeten_labs_site=self.webpackChunkthreeten_labs_site||[]).push([[9257],{7228:e=>{e.exports=JSON.parse('{"label":"mobile development","permalink":"/blog/tags/mobile-development","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

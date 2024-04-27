@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>The Home of ThreeTen Labs Blog</title>
+        <link>https://threetenlabs.com/blog</link>
+        <description>The Home of ThreeTen Labs Blog</description>
+        <lastBuildDate>Fri, 26 Apr 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[The Making of Y.A.S.S. Spider Solitaire]]></title>
+            <link>https://threetenlabs.com/blog/making-yass-spider-solitaire</link>
+            <guid>https://threetenlabs.com/blog/making-yass-spider-solitaire</guid>
+            <pubDate>Fri, 26 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dive into the humorous tale of developing Yet Another Spider Solitaire, an iOS and Android game built with Flutter and Firebase.]]></description>
+            <content:encoded><![CDATA[
+<p><strong>Hey everyone!</strong><br>
+<!-- -->After a rigorous, caffeine-fueled 8 months, we've completed our first mobile game, Y.A.S.S. — Yet Another Spider Solitaire. And yes, I hear you chuckling! "Yet another one?" Absolutely, because clearly what the world needs is another version of Spider Solitaire on iOS and Android. Trust me, ours has its own set of features that hopefully differentiate it from others!</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="why-yass-you-ask">Why Y.A.S.S. you ask?<a href="https://threetenlabs.com/blog/making-yass-spider-solitaire#why-yass-you-ask" class="hash-link" aria-label="Direct link to Why Y.A.S.S. you ask?" title="Direct link to Why Y.A.S.S. you ask?">​</a></h2>
+<p>Around August of 2023, I was in a conversation with my friend and co-founder of ThreeTenLabs (more on that in a moment). I had mentioned to him that I had been spending some time with <a href="https://flutter.dev/" target="_blank" rel="noopener noreferrer">Flutter</a> to get myself more familiar with cross-platform development. He responded with immediate excitement and exclaimed that he too have been exploring Flutter, and in fact had begun developing a Spider Solitaire game in his effort to dip his toes in the water.
+We decided that day, that we should join forces. I help him with the game, and he helps me with the idea that I had for a game (more on that in a moment as well). We knew that it would behoove us to start an LLC, and since we both have birthdays on the 10th day of March, ThreeTen Labs was formed.  And since we are both software engineers, HUGE fans of acronyms, and even bigger fans of facetiousness, YASS (Yet Another Spider Solitaire) was born.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="choosing-our-tools">Choosing Our Tools<a href="https://threetenlabs.com/blog/making-yass-spider-solitaire#choosing-our-tools" class="hash-link" aria-label="Direct link to Choosing Our Tools" title="Direct link to Choosing Our Tools">​</a></h2>
+<p>The tech stack was a major decision from the get-go. As noted before, Flutter was the bedrock technology that allowed us to share the same codebase across multiple target platforms, and known for its beautiful native interfaces. We needed a backend, for transactional reads and writes of data, to help keep things secure, for in-app messaging, monitoring, authentication.
+Crashlytics allowed us to watch it crash (a lot! - and tell us why), and Analytics gave us the ability to see all <code>three</code> people use our app (hi mom!). Firebase gave us as a small startup to scale our infrastructure up as the traffic of our game will, so for us it was a no-brainer.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="flutter-takes-flight">Flutter Takes Flight<a href="https://threetenlabs.com/blog/making-yass-spider-solitaire#flutter-takes-flight" class="hash-link" aria-label="Direct link to Flutter Takes Flight" title="Direct link to Flutter Takes Flight">​</a></h2>
+<p>Embarking on our Flutter journey felt like stepping into the cockpit of a sophisticated aircraft. At first glance, the array of buttons and controls was overwhelming, but as we gained familiarity, we found ourselves piloting a state-of-the-art machine capable of flying high across multiple platforms. Flutter's strength lies in its seamless operation across Android and iOS, coupled with its stellar integration with VS Code, providing an IDE that felt like having an expert co-pilot. Navigating the iOS ecosystem occasionally felt like flying through turbulent weather—challenging yet thrilling. The end result? An app that performs splendidly on both vintage and the latest devices, crafted to perfection.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="getx-to-the-rescue">GetX to the Rescue<a href="https://threetenlabs.com/blog/making-yass-spider-solitaire#getx-to-the-rescue" class="hash-link" aria-label="Direct link to GetX to the Rescue" title="Direct link to GetX to the Rescue">​</a></h2>
+<p>If Flutter turned us into skilled pilots, GetX was our advanced navigation system. Its approach to reactive programming was straightforward, guiding us through complex state management scenarios with precision. Think of it as having a top-tier GPS that not only predicts the traffic (or app states) ahead but also suggests the best routes (or data flows). This tight integration between controllers and views acted like a well-oiled autopilot, enhancing our development speed by minimizing manual coding and maximizing efficiency. Some critics say GetX may try to handle too much, like an overenthusiastic autopilot, but in our quest for efficient delivery, we found its capabilities to be exactly what we needed to stay on course without any hiccups.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="lessons-learned">Lessons Learned<a href="https://threetenlabs.com/blog/making-yass-spider-solitaire#lessons-learned" class="hash-link" aria-label="Direct link to Lessons Learned" title="Direct link to Lessons Learned">​</a></h2>
+<p>Here are some nuggets of wisdom from my time in the trenches:</p>
+<ul>
+<li><strong>Embrace the documentation</strong>: It's like the map to the treasure. Read it, cherish it, and keep it under your pillow.</li>
+<li><strong>Test on all the devices</strong>: Just because it looks good on your flagship device, doesn’t mean it will shine on all devices. Diversity in testing equals fewer angry emails.</li>
+<li><strong>The user is king</strong>: Feedback is golden, even if it's from Aunt Marge who still uses a flip phone.</li>
+<li><strong>Laugh at the bugs</strong>: You'll meet many. Treat them like whack-a-mole; it's more fun that way.</li>
+</ul>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="shameless-plug">Shameless Plug<a href="https://threetenlabs.com/blog/making-yass-spider-solitaire#shameless-plug" class="hash-link" aria-label="Direct link to Shameless Plug" title="Direct link to Shameless Plug">​</a></h2>
+<p>If you're curious about Y.A.S.S., you can check it out on the <a href="https://apps.apple.com/us/app/y-a-s-s/id6472488148" target="_blank" rel="noopener noreferrer">App Store</a> and <a href="https://play.google.com/store/apps/details?id=com.threetenlabs.spidersolitaire" target="_blank" rel="noopener noreferrer">Google Play</a>. And if you're feeling generous, leave a review! We're always looking to improve and make the game more enjoyable for everyone.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="in-conclusion">In Conclusion<a href="https://threetenlabs.com/blog/making-yass-spider-solitaire#in-conclusion" class="hash-link" aria-label="Direct link to In Conclusion" title="Direct link to In Conclusion">​</a></h2>
+<p>Building Y.A.S.S. has been a roller coaster. There were highs (it runs without crashing!), lows (it crashes!), and lots of learning. Would we do it again? Not only would we, but we're already planning our next game! Remember, when we started this conversation, I mentioned I had an idea for a game as well! Stay tuned for the next blog! We plan on sharing our journey with you all!</p>]]></content:encoded>
+            <category>Y.A.S.S</category>
+            <category>flutter</category>
+            <category>firebase</category>
+            <category>getx</category>
+            <category>mobile development</category>
+        </item>
+    </channel>
+</rss>
