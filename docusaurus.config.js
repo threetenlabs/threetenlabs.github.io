@@ -65,12 +65,7 @@ module.exports = {
       },
       hideOnScroll: true,
       items: [
-        // {
-        //   to: '/games/',
-        //   activeBasePath: 'docs',
-        //   label: 'Games',
-        //   position: 'right',
-        // },
+        {to: 'blog', label: 'Blog', position: 'right'}, 
       ],
     },
     footer: {
