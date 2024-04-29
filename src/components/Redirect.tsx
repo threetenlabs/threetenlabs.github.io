@@ -12,8 +12,8 @@ const Redirect: React.FC = () => {
     const promoter = params.get('x') || 'threetenlabs';
     const utmMedium = params.has('x') ? 'influencer' : 'website';
 
-    const iOSUrl = `https://apps.apple.com/us/app/y-a-s-s/id6472488148?ct=2024install&pt=${promoter}`;
-    const androidUrl = `https://play.google.com/store/apps/details?id=com.threetenlabs.spidersolitaire&utm_source=threetenlabswebsite&utm_medium=${utmMedium}&utm_campaign=2024install&utm_content=${promoter}`;
+    const iOSUrl = 'https://apps.apple.com/app/apple-store/id6472488148?pt=126749548&ct=${promoter}&mt=8';
+    const androidUrl = 'https://play.google.com/store/apps/details?id=com.threetenlabs.spidersolitaire&utm_source=threetenlabswebsite&utm_medium=${utmMedium}&utm_campaign=2024install&utm_content=${promoter}';
 
 
   useEffect(() => {
