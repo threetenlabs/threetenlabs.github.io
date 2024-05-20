@@ -16,5 +16,18 @@
         "92:57:8D:7E:8C:EC:CF:D1:AC:2F:BB:4E:98:60:B7:77:17:28:A4:78:A3:68:2A:62:DD:66:4E:A9:FD:CD:DA:E1"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.threetenlabs.bedlam",
+      "sha256_cert_fingerprints": [
+        "49:F5:2A:70:62:90:0E:30:D7:22:4E:8E:C7:BF:E8:54:83:2D:93:0F:A9:4C:F5:FA:58:74:AC:C6:B0:E6:72:87",
+        "92:57:8D:7E:8C:EC:CF:D1:AC:2F:BB:4E:98:60:B7:77:17:28:A4:78:A3:68:2A:62:DD:66:4E:A9:FD:CD:DA:E1"
+      ]
+    }
   }
 ]
