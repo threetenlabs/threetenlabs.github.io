@@ -9,7 +9,25 @@
                   "comment": "Matches any URL with a path that starts with /game/solitaire/share/."
                }
              ]
-           }
+           },
+           {
+            "appIDs": [ "64F2NQS383.com.threetenlabs.spidersolitaire" ],
+            "components": [
+              {
+                 "/": "/games/yass/*",
+                 "comment": "Matches any URL with a path that starts with /games/yass/."
+              }
+            ]
+          },
+           {
+            "appIDs": [ "64F2NQS383.com.threetenlabs.bedlam" ],
+            "components": [
+              {
+                 "/": "/games/bedlam/*",
+                 "comment": "Matches any URL with a path that starts with /games/bedlam/."
+              }
+            ]
+          }
        ]
    }
 }
