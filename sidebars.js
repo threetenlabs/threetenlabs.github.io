@@ -26,7 +26,11 @@ module.exports = {
         {
           type: 'category',
           label: 'Bedlam Games',
-          items: ['games/bedlam/index-bedlam'],
+          items: [
+            'games/bedlam/index-bedlam',
+            'games/bedlam/faq',
+            'games/bedlam/presskit',
+          ],
         },
       ],
     },

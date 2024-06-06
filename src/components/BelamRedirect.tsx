@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import GooglePlayButton from '@theme/GooglePlayButton';
 import AppStoreButton from '@theme/AppStoreButton';
 
-const Redirect: React.FC = () => {
+const BedlamRedirect: React.FC = () => {
   const [display, setDisplay] = useState('none');
   const location = useLocation();
   const params = new URLSearchParams(location.search);
@@ -113,4 +113,4 @@ const Redirect: React.FC = () => {
   );
 };
 
-export default Redirect;
+export default BedlamRedirect;

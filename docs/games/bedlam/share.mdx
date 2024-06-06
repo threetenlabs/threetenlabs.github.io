@@ -1,0 +1,37 @@
+---
+id: share
+title: ''
+sidebar_label: Download
+slug: /game/bedlam/share
+---
+
+import GooglePlayButton from '@theme/GooglePlayButton';
+import ButtonsContainer from '@theme/ButtonsContainer';
+import AppStoreButon from '@theme/AppStoreButton';
+
+    {/* <div className="row">
+        <div className="col col--12--center yassIcon">
+            <img src="/img/yass/playstore.png" alt="Y.A.S.S. Solitaire" />
+        </div>
+    </div> */}
+
+    <div className="row">
+        <div className="col col--12--center">
+            <ButtonsContainer>
+                <GooglePlayButton
+                    url={"https://play.google.com/store/apps/details?id=com.threetenlabs.spidersolitaire"}
+                    theme={"light"}
+                    height={"60px"}
+                    className={"custom-style"}
+                />
+
+                <AppStoreButon
+                    url={"https://apps.apple.com/us/app/y-a-s-s/id6472488148"}
+                    theme={"light"}
+                    height={"60px"}
+                    className={"custom-style"}
+                />
+            </ButtonsContainer>
+
+        </div>
+    </div>
