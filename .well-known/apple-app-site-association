@@ -1,33 +1,37 @@
 {
   "applinks": {
-      "details": [
-           {
-             "appIDs": [ "64F2NQS383.com.threetenlabs.spidersolitaire" ],
-             "components": [
-               {
-                  "/": "/game/solitaire/share/*",
-                  "comment": "Matches any URL with a path that starts with /game/solitaire/share/."
-               }
-             ]
-           },
-           {
-            "appIDs": [ "64F2NQS383.com.threetenlabs.spidersolitaire" ],
-            "components": [
-              {
-                 "/": "/games/yass/*",
-                 "comment": "Matches any URL with a path that starts with /games/yass/."
-              }
-            ]
+    "details": [
+      {
+        "appIDs": [ "64F2NQS383.com.threetenlabs.spidersolitaire" ],
+        "components": [
+          {
+            "/": "/games/yass/faq/",
+            "exclude": true,
+            "comment": "A web page the app links to. Without this the app claims its own FAQ link and the page never opens."
           },
-           {
-            "appIDs": [ "64F2NQS383.com.threetenlabs.bedlam" ],
-            "components": [
-              {
-                 "/": "/games/bedlam/*",
-                 "comment": "Matches any URL with a path that starts with /games/bedlam/."
-              }
-            ]
+          {
+            "/": "/games/yass/",
+            "comment": "The shared-game link exactly as the app shares it, with nothing after the trailing slash."
+          },
+          {
+            "/": "/games/yass/*",
+            "comment": "Matches any URL with a path that starts with /games/yass/."
+          },
+          {
+            "/": "/game/solitaire/share/*",
+            "comment": "The older share path, kept so links already out there still open."
           }
-       ]
-   }
+        ]
+      },
+      {
+        "appIDs": [ "64F2NQS383.com.threetenlabs.bedlam" ],
+        "components": [
+          {
+            "/": "/games/bedlam/*",
+            "comment": "Matches any URL with a path that starts with /games/bedlam/."
+          }
+        ]
+      }
+    ]
+  }
 }
